@@ -116,18 +116,29 @@
     <wire from="(240,90)" to="(250,90)"/>
     <wire from="(570,100)" to="(580,100)"/>
     <comp lib="1" loc="(570,100)" name="NOT Gate"/>
-    <comp lib="0" loc="(120,90)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="0" loc="(510,90)" name="Pin">
+    <comp lib="0" loc="(380,90)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="labelloc" val="north"/>
     </comp>
     <comp lib="1" loc="(790,200)" name="AND Gate">
       <a name="inputs" val="3"/>
     </comp>
-    <comp lib="1" loc="(790,530)" name="AND Gate">
+    <comp lib="1" loc="(790,310)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="0" loc="(120,90)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="0" loc="(250,90)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="1" loc="(1050,350)" name="OR Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="1" loc="(440,100)" name="NOT Gate"/>
+    <comp lib="1" loc="(790,420)" name="AND Gate">
       <a name="inputs" val="3"/>
     </comp>
     <comp lib="0" loc="(1170,350)" name="Pin">
@@ -135,25 +146,18 @@
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(380,90)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="labelloc" val="north"/>
-    </comp>
     <comp lib="1" loc="(310,100)" name="NOT Gate"/>
-    <comp lib="0" loc="(250,90)" name="Pin">
+    <comp lib="1" loc="(180,100)" name="NOT Gate"/>
+    <comp lib="1" loc="(790,530)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="0" loc="(510,90)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="1" loc="(180,100)" name="NOT Gate"/>
-    <comp lib="1" loc="(1050,350)" name="OR Gate">
-      <a name="inputs" val="4"/>
+    <comp lib="6" loc="(522,48)" name="Text">
+      <a name="text" val="SOP(0,1,5,7,10,14,15)"/>
+      <a name="font" val="SansSerif plain 20"/>
     </comp>
-    <comp lib="1" loc="(790,310)" name="AND Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(790,420)" name="AND Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(440,100)" name="NOT Gate"/>
   </circuit>
 </project>
