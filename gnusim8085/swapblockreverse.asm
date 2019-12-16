@@ -2,7 +2,7 @@
 
 LXI H, 0AAAAH
 LXI D, 0CCCCH
-MVI C, C, 0DDH
+MVI C, 0DDH
 start: MOV A, M
 MOV B, A
 LDAX D
