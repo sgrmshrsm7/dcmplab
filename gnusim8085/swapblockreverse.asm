@@ -13,4 +13,4 @@ INX H
 DCX D
 DCR C
 JNZ start
-hlt
+HLT
